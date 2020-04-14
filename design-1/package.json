@@ -12,7 +12,11 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "nuxt-lazy-load": "^1.1.9"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
+  }
 }

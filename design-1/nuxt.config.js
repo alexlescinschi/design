@@ -23,11 +23,17 @@ export default {
   ** Global CSS
   */
   css: [
+    // CSS file in the project
+    '@/assets/css/main.css',
+    // SCSS file in the project
+    '@/assets/css/main.sass'
   ],
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [{ src: "@/plugins/aos", ssr: false }],
+  plugins: [
+    { src: "@/plugins/aos", ssr: false },
+        ],
   /*
   ** Nuxt.js dev-modules
   */
@@ -37,9 +43,14 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    'nuxt-lazy-load'
   ],
+
+  env: {
+    appName: 'Lescinschi Art Studio'
+  },
   /*
-  ** Build configuration
+  ** Build configuration 
   */
   build: {
     /*
