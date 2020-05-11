@@ -85,7 +85,7 @@
             </div>
         </div>
 
-        <nuxt-link exact active-class="active" to="/en/">in engleza</nuxt-link>
+        <nuxt-link exact active-class="active" to="/">in romana</nuxt-link>
 
   </div>
 </template>

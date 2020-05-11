@@ -33,6 +33,7 @@ export default {
   */
   plugins: [
     { src: "@/plugins/aos", ssr: false },
+    { src: "@/plugins/vuelidate", ssr: false },
         ],
   /*
   ** Nuxt.js dev-modules
@@ -43,7 +44,8 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    'nuxt-lazy-load'
+    'nuxt-lazy-load',
+    '@nuxtjs/axios',
   ],
 
   env: {
@@ -60,3 +62,4 @@ export default {
     }
   }
 }
+
