@@ -1,8 +1,20 @@
 <template>
   <div>
+    <Nav />
     <nuxt />
   </div>
 </template>
+
+<script>
+import Nav from '@/components/Nav'
+
+export default {
+  components: {
+    Nav
+  },
+
+}
+</script>
 
 <style>
 html {
@@ -15,6 +27,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background-color: black;
 }
 
 *,

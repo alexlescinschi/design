@@ -11,8 +11,15 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.10.3",
     "aos": "^2.3.4",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "nuxt-i18n": "^6.11.0",
+    "nuxt-lazy-load": "^1.1.9",
+    "vuelidate": "^0.7.5"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
 }
