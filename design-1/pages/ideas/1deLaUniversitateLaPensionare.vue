@@ -63,40 +63,43 @@
         </div>
     </div>
     <swiper class="swiper" :options="swiperOption">
-    <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
-    <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
-    <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
-    <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
-    <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
-    <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
-    <div class="swiper-pagination" slot="pagination"></div>
+      <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
+      <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
+      <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
+      <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
+      <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
+      <swiper-slide><img src="@/static/covers/1_retirement-cover-index.png" alt="альтернативный текст" ></swiper-slide>
+      <div class="swiper-pagination" slot="pagination"></div>
   </swiper>
   </div>
 </template>
 
 <script>
-  import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
-  import 'swiper/css/swiper.css'
+import {
+  Swiper,
+  SwiperSlide
+} from 'vue-awesome-swiper'
+import 'swiper/css/swiper.css'
 
-  export default {
-    name: 'swiper-example-space-between',
-    title: 'Space between slides',
-    components: {
-      Swiper,
-      SwiperSlide
-    },
-    data() {
-      return {
-        swiperOption: {
-          spaceBetween: 30,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true
-          }
+export default {
+  name: 'swiper-example-space-between',
+  title: 'Space between slides',
+  components: {
+    Swiper,
+    SwiperSlide
+  },
+  data() {
+    return {
+      swiperOption: {
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
         }
       }
     }
   }
+}
 </script>
 
 <style scoped>
