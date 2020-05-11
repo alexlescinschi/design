@@ -2,7 +2,7 @@
   <div>
     <!--Projects-->
         <div class="projects">
-            <div class="project-4x" 
+            <div class="project-4x"
               data-aos="fade-down"
               data-aos-delay="1000"
               >
@@ -85,13 +85,19 @@
             </div>
         </div>
 
-        <nuxt-link exact active-class="active" to="/en/">in engleza</nuxt-link>
+        <h1>Lang navigation</h1>
+          <nuxt-link :to="switchLocalePath('ro')">Romanian</nuxt-link>
+          <nuxt-link :to="switchLocalePath('en')">English</nuxt-link>
+          <nuxt-link :to="switchLocalePath('ru')">Russian</nuxt-link>
+
+
+          
 
   </div>
 </template>
 
 <script>
-export default {  
+export default {
   head: {
       title: `Proiecte realizate | ${process.env.appName}`
   },
