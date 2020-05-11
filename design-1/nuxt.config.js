@@ -50,6 +50,10 @@ export default {
       src: "@/plugins/vuelidate",
       ssr: false
     },
+    {
+      src: "@/plugins/swiper",
+      ssr: false
+    },
   ],
   /*
    ** Nuxt.js dev-modules
