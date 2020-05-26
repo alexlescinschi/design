@@ -6,7 +6,7 @@
               data-aos="fade-down"
               data-aos-delay="1000"
               >
-                <a class="project-4x-img" href="/ideas/1_de_la_universitate_la_pensionare.html">
+                <a class="project-4x-img" href="/ide  as/1deLaUniversitateLaPensionare">
                     <img src="@/static/covers/9_ideas_de_la_universitate_la_pensionare_cover.png" alt="publicitate-google-broni-usi" >
                 </a>
                 <div class="project-title"><a href="/ideas/1_de_la_universitate_la_pensionare.html">De la universitate la pensionare: folosim evenimentele de viața clienților în Google Ads</a></div>
@@ -91,7 +91,7 @@
           <nuxt-link :to="switchLocalePath('ru')">Russian</nuxt-link>
 
 
-          
+
 
   </div>
 </template>
@@ -140,12 +140,12 @@ export default {
 }
 
 .project-title > a {
-    font-size: 30px;
+    font-size: 25px;
     font-family: Lora, sans-serif;
+    border-bottom: 1px solid #636363;
     color: white;
     font-weight: 400;
     cursor: pointer;
-    border-bottom: 2px solid #636363;
     text-decoration: none;
     margin-block-start: 0em;
     margin-block-end: 0em;

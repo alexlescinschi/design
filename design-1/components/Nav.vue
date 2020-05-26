@@ -10,6 +10,9 @@
                     <nuxt-link exact active-class="active" to="/">Proiecte realizate</nuxt-link>
                 </div>
                 <div class="navigation-a-cover">
+                    <nuxt-link active active-class="active" to="/ideas/">Idei</nuxt-link>
+                </div>
+                <div class="navigation-a-cover">
                     <nuxt-link active-class="active" to="/cautare-google/">Publicitate în Google</nuxt-link>
                 </div>
                 <div class="navigation-a-cover">
@@ -27,7 +30,7 @@
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 a {
     color: white;
