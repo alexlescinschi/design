@@ -54,10 +54,6 @@ export default {
       src: "@/plugins/swiper",
       ssr: false
     },
-    {
-      src: "@/plugins/vue-agile",
-      ssr: false
-    },
   ],
   /*
    ** Nuxt.js dev-modules
